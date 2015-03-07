@@ -1,0 +1,17 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=240,height=320,user-scalable=yes,initial-scale=2.5,maximum-scale=5.0,minimum-scale=1.0">
+    <title>{{.}}</title>
+</head>
+<body>
+<form enctype="multipart/form-data" action="http://192.168.221.186:9090/upload" method="post">
+    <select name="uploadpath">
+        <option value="upload">upload</option>
+        <option value="apk">apk</option>
+    </select>
+  <input type="file" name="uploadfile" />
+  <input type="submit" value="upload" />
+</form>
+</body>
+</html>
